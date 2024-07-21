@@ -1,0 +1,55 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+    font-family : 'Montserrat';
+    font-weight: bold;
+}
+
+.navbar ui {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.navbar ui li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 14px;
+}
+
+.navbar ui x a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.logo {
+    border: 0;
+    background: white;
+
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+    outline: 20px;
+    outline-color: #252525;
+
+    background: white;
+    color: #757575;
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap;  
+
+    cursor: pointer;
+}
